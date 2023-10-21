@@ -1,0 +1,22 @@
+# Files without extension
+*
+!/**/
+!*.*
+
+# test videos
+*.mp4
+video_tests/
+
+tests/balance/
+tests/single_step/
+tests/speedup/
+tests/static_dynamic_comparison/
+remote_tests/
+
+# cmake files
+CMakeFiles/
+*.cmake
+Makefile
+CMakeCache.txt
+
+.vscode/
